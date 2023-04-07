@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -frounding-math -O3 -DNDEBUG  -shared -Wl,-soname,libCGAL_ImageIO.so.12 -o ../../lib/libCGAL_ImageIO.so.12.0.0 CMakeFiles/CGAL_ImageIO.dir/all_files.cpp.o   -L/home/ros/Programs/CoScan_ws/src/CGAL-4.9.1/build/lib  -Wl,-rpath,/home/ros/Programs/CoScan_ws/src/CGAL-4.9.1/build/lib: -lmpfr -lgmp ../../lib/libCGAL.so.12.0.0 -lz -lmpfr -lgmp 
